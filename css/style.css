@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    /* importantíssimo definir que a altura de nav é 100% da altura da viewport */
+    height: 100vh;
+    background-image: url('../img/fundo-madeira.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+nav {
+    /* importantíssimo definir que a altura de nav é 100% da altura da viewport */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+
+nav img {
+    width: 70px;
+    border-radius: 50%;
+    margin: 10px 20px 0px 0px;
+    box-shadow: 3px 2px 4px 0px rgba(0, 0, 0, 0.89);
+}
+
+nav img:hover {
+    border: 2px solid white;
+    transform: translate(0px, -10px);
+    transition: 300ms;
+}
+
+img#git {
+    background-color: white;
+}
+
+main {
+    position: relative;
+}
+
+main>section {
+    position: absolute;
+    background-image: url('../img/frame-iphone-redimensionado.png');
+    /* background-color: antiquewhite; */
+
+    /* para este caso, a melhor opção foi  o background-contain, pois ele redimensionou a imagem de forma satisfatória e apresentou ela inteira*/
+    background-size: contain;
+    background-position: center center;
+    /* exatamente a largura e altura da minha img */
+    width: 248px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    /* para centralizar a imagem perfeitamente, colocando o seu eixo central no meio*/
+    transform: translate(-50%, -50%);
+}
+
+iframe{
+    position: relative;
+    top: 65px;
+    left: 19px;
+    width: 211px;
+    height: 373px;
+}
