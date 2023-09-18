@@ -7,9 +7,9 @@
 body {
     /* importantíssimo definir que a altura de nav é 100% da altura da viewport */
     height: 100vh;
-    background-image: url('../img/fundo-madeira.jpg');
+    background-image: url(../img/neom-0rvKw0fDiHk-unsplash.jpg);
     background-size: cover;
-    background-position: center center;
+    background-position: top center;
 }
 
 nav {
