@@ -82,6 +82,6 @@ iframe{
         top: 50%;
         left: 30%;
         /* para centralizar a imagem perfeitamente, colocando o seu eixo central no meio*/
-        transform: translate(-30%, -50%);
+        /* transform: translate(-30%, -50%); */
     }
 }
