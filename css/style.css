@@ -67,7 +67,7 @@ iframe{
     height: 379px;
 }
 
-@media screen and  (max-width:600px) {
+@media screen and  (max-width:800px) {
     main>section {
         position: absolute;
         background-image: url('../img/frame-iphone-redimensionado.png');
