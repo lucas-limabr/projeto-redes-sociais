@@ -67,3 +67,21 @@ iframe{
     height: 379px;
 }
 
+@media screen and  (max-width:600px) {
+    main>section {
+        position: absolute;
+        background-image: url('../img/frame-iphone-redimensionado.png');
+        /* background-color: antiquewhite; */
+    
+        /* para este caso, a melhor opção foi  o background-contain, pois ele redimensionou a imagem de forma satisfatória e apresentou ela inteira*/
+        background-size: contain;
+        background-position: center center;
+        /* exatamente a largura e altura da minha img */
+        width: 248px;
+        height: 500px;
+        top: 50%;
+        left: 40%;
+        /* para centralizar a imagem perfeitamente, colocando o seu eixo central no meio*/
+        transform: translate(-40%, -50%);
+    }
+}
