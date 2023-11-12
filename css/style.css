@@ -38,10 +38,6 @@ img#git {
     background-color: white;
 }
 
-main {
-    position: relative;
-}
-
 main>section {
     position: absolute;
     background-image: url('../img/frame-iphone-redimensionado.png');
@@ -69,8 +65,11 @@ iframe{
 
 @media screen and  (max-width:600px) {
     main>section {
-        position: absolute;
-        top: 50%;
-        left: 180px;
+        left: 10vw; 
+        transform: translate(0px, -50%); 
+    }
+
+    nav img {
+        width: 50px;
     }
 }
